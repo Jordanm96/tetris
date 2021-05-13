@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Tetris from './components/Tetris';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
+    <div>
+      <Tetris />
     </div>
   );
-}
-
+};
 export default App;
