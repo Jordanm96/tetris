@@ -57,3 +57,11 @@ export const TETROMINOS = {
     color: '227, 78, 78'
   },
 }
+// This function starts with our string of letters
+// It randomly selects one and saves it under randTetromino
+// EX. return  TETROMINOS[J] will give us that J object tetromino
+export const randomTetromino = () => {
+  const tetrominos = 'IJLOSTZ';
+  const randTetromino = tetrominos[Math.floor(Math.random() * tetrominos.length)];
+  return TETROMINOS[randTetromino];
+}
