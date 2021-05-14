@@ -64,7 +64,7 @@ const Tetris = () => {
     } else {
       // Game over!
       if (player.pos.y < 1) {
-        console.log('GAME OVER!!!');
+        // console.log('GAME OVER!!!');
         setGameOver(true);
         setDropTime(null);
       }
@@ -110,11 +110,14 @@ const Tetris = () => {
         <Stage stage={stage} />
         <aside>
           {gameOver ? (
+            <div>
+            <Display text={`Final Score: ${score}`} />
             <Display gameOver={gameOver} text="Game Over" />
+            </div>
           ) : (
             <div>
               <Display text={`Score: ${score}`} />
-              <Display text={`rows: ${rows}`} />
+              <Display text={`Rows: ${rows}`} />
               <Display text={`Level: ${level}`} />
             </div>
           )}
