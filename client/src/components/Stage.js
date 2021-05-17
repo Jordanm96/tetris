@@ -7,5 +7,4 @@ const Stage = ({ stage }) => (
   </StyledStage>
 );
 
-
 export default Stage;
