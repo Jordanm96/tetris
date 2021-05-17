@@ -2,7 +2,7 @@
 [Play](http://tetris-j.surge.sh/)
 
 ## Overview
-Built using React and styled components Following [freecodecamps tutorial](https://www.youtube.com/watch?v=ZGOaCxX8HIU), I have created my version of the popular arcade game: Tetris! Built using React and styled components, I was exposed to several new ways of using react hooks and css. While very difficult to create and understand, I came out of it with a working game. I had just as much fun making this app as I did playing with the finished product.
+Following a [freecodecamps tutorial](https://www.youtube.com/watch?v=ZGOaCxX8HIU), I have created my version of the popular arcade game: Tetris! Built using React and styled components, I was exposed to several new ways of using react hooks and css. While very difficult to create and understand, I came out of it with a working game. I had just as much fun making this app as I did playing with the finished product.
 
 ## How to play
 Use the arrows on your keyboard to move, rotate, and drop the tetrominos inside the grid to create full rows that grant you points. The game is over when the blocks stack too high and touch the top of the grid.
